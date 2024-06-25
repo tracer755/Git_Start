@@ -36,6 +36,7 @@ function startChild(){
   console.log("Starting Child");
   child = spawn('node', [__dirname + "/app/" + config.StartLocation]);
   isChildRunning = true;
+  hasChildRun = true;
   child.stdout.on('data', (data) => {
     console.log(`[App]  ${data}`);
   });
