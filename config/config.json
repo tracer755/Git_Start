@@ -1,0 +1,11 @@
+{
+  "GithubToken" : "",
+  "GithubUsername" : "",
+  "RepoName" : "",
+  "StartLocation" : "",
+  "TransferFolders" : [
+    {
+      "Path" : ""
+    }
+  ]
+}
